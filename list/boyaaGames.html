@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>博雅游戏</title>
+
+    <!--<script type="text/javascript" src="js/slide-item.js"></script>-->
+
+    <!--<script type="text/javascript" src="../../jQuery/jquery-2.0.0.min.js"></script>-->
+      <script type="text/javascript" src="../js/jquery-1.11.0.min.js" ></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/gamesTab.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/boyaaGames.css">
+
+</head>
+<body>
+<nav class="navbar navbar-inverse" style="border-radius: 0px;background: #191D3A">
+    <div class="container">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html"><img src="http://www.boyaa.com/images/logo.png" alt="" style="margin-top: -8px;"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="../index.html" style="background: #252947">首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="../list/boyaaGames.html">博雅游戏</a></li>
+                    <li><a href="../list/boyaaNews.html">博雅新闻</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">客服中心</a></li>
+                    <li><a href="#">投资者关系</a></li>
+                    <li><a href="#" style="color:white;"><span style="background: #38B774;color: white;padding: 5px">加入我们</span></a></li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li style="border: none"><a href="#" style="color: #38B774;">中文</a></li>
+                    <li style="border: none" class="green"><a href="#" id="green">EN</a></li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </div>
+</nav>
+
+<div class="container-fluid" style="margin-top: -20px">
+    <div class="row">
+        <div class="col-md-12px">
+            <img src="../img/gamebanner.jpg" alt="" style="width: 100%;">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="location container" style="line-height: 65px;border-bottom: solid 1px #C7D6E5;margin-bottom: 30px">
+       <div >
+           <h2 style="float: left;border: none" ><img id="titleImg" src="../img/boyaaGames.png" alt="">博雅游戏</h2>
+           <div class="pull-right" style="line-height: 65px;float: right">
+               <a style="color:black;" href="../index.html"><div class="glyphicon glyphicon-home" style="font-size: 15px"></div></a>
+               <div class="glyphicon glyphicon-triangle-right" style="font-size: 12px;margin-left: 10px;color: gray;"></div>博雅游戏
+           </div>
+       </div>
+       </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 pull-left titleBox displayNone">
+            <ul class="list-group pull-left titleBoxSelect" style="width: 200px; ">
+                <li class="list-group-item on hover"><a href="javascript:;">
+                    <i class="phone phone0" style="background-position:-121px 0 "></i>
+                    Phone</a><span class="glyphicon glyphicon-triangle-right active1 pull-right"  style="color: green;font-size: 12px;"></span> </li>
+                <li class="list-group-item"><a href="javascript:;"><i class="phone phone1"  style="background-position:-4px -97px"></i>
+                    Android</a><span class="glyphicon glyphicon-triangle-right active1 pull-right"  style="color: green;font-size: 12px;"></span></li>
+                <li class="list-group-item"><a href="javascript:;"><i class="phone phone2" style="background-position:0px -197px"></i>iPad</a><span class="glyphicon glyphicon-triangle-right active1 pull-right"  style="color: green;font-size: 12px;"></span></li>
+                <li class="list-group-item"><a href="javascript:;"><i class="phone phone3" style="background-position:0px -295px"></i>PC</a><span class="glyphicon glyphicon-triangle-right active1 pull-right"  style="color: green;font-size: 12px;"></span></li>
+                <li class="list-group-item"><a href="javascript:;"><i class="phone phone4" style="background-position:-0px -595px"></i>TV</a><span class="glyphicon glyphicon-triangle-right active1 pull-right"  style="color: green;font-size: 12px;"></span></li>
+            </ul>
+        </div>
+        <div class="col-md-9 pull-right gamesBox">
+            <section class="content">
+                <ul class="gamesList ">
+                    <li><h3><a href="">斗地主 <span class="title">LANDLORDS</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic3.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">麻将全集<span class="title">MAHJONG GAMES</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/byamaj.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">四川麻将 <span class="title">SICHUAN MAHJONG</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic2.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">四人斗地主 <span class="title">FOUR LANDLORDS</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic6.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">中国象棋<span class="title">CHINESE CHESS OF BOYAA</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic10.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                </ul>
+            </section>
+            <section class="content">
+                <ul class="gamesList ">
+                    <li><h3><a href="">斗地主 <span class="title">LANDLORDS</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic3.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">博雅十三张 <span class="title">CHINESE POKER OF BOYAA</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/ssanrk.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">	麻将全集 <span class="title">MAHJONG GAMES</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/byamaj.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">四川麻将 <span class="title">SICHUAN MAHJONG</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic2.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">二人麻将<span class="title">TWO PLAYER MAHJONG</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic12.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">中国象棋<span class="title">CHINESE CHESS OF BOYAA</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic10.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">卡五星麻将<span class="title">FIVE STAR MAHJONG OF BOYAA</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic23.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                </ul>
+            </section>
+            <section class="content">
+                <ul class="gamesList ">
+                    <li><h3><a href="">斗地主 <span class="title">LANDLORDS</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic3.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">麻将全集 <span class="title">MAHJONG GAMES</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/byamaj.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">四川麻将 <span class="title">SICHUAN MAHJONG</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic2.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">中国象棋 <span class="title">CHINESE CHESS OF BOYAA</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic10.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>App Store</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    
+                </ul>
+            </section>
+            <section class="content">
+                <ul class="gamesList ">
+                    <li><h3><a href="">斗地主 <span class="title">LANDLORDS</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic3.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>在线游戏</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">中国象棋 <span class="title">CHINESE CHESS OF BOYAA</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic10.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>在线游戏</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                   
+                </ul>
+            </section>
+            <section class="content">
+                <ul class="gamesList ">
+                    <li><h3><a href="">斗地主 <span class="title">LANDLORDS</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic3.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>客户端下载</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">四川麻将 <span class="title">SICHUAN MAHJONG</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic15.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>客户端下载</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">中国象棋 <span class="title">CHINESE CHESS OF BOYAA</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/gamepic10.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>客户端下载</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                    <li><h3><a href="">博雅棋牌 <span class="title">BOYAA CHESS</span><span class="glyphicon glyphicon-triangle-right"></span></a></h3>
+                        <div>
+                            <img src="../img/byqpai2.jpg" alt="">
+                        </div>
+                        <div class="gamesLink">
+                            <span style="border-right:1px solid #C7D6E5"> <a href=""><i class="address"></i><b>客户端下载</b> </a> </span>
+                            <span > <a href=""><i class="address" style="background-position: 0 -448px"></i><b>二维码下载</b> </a> </span>
+                        </div>
+
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+</div>
+
+    <!--<div class="gamesListscn pull-right">-->
+
+<footer class="container-fluid tail">
+    <div class="container end">
+        <div class="row" style="padding: 0 70px">
+            <div class="col-md-12">
+                <span class="foot-text">
+        <a href="">网站地图</a>
+        <a href="">免责声明</a>
+        <a href="">监督举报</a>
+    </span>
+                <p class="foot-text">
+                    Copyright© 2004-2009 博雅互动 Boyaa Interactive)粤ICP 备05062536号
+                </p>
+                <span class="foot-text">
+      网络文化经营许可证：粤网文[2015]1991-405 | 互联网出版许可证：新出网
+        站（粤）字062号 |增值电信业务经营许可证：粤B2-20110513 <span class="imgIcon"><img src="../img/govIcon.gif" alt=""></span>
+    </span>
+            </div>
+        </div>
+    </div>
+</footer>
+<a href="#top"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-triangle-top"></span>Top</button></a>
+
+</body>
+</html>

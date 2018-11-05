@@ -1,0 +1,135 @@
+.list-group-item{
+    padding: 10px 0px;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    margin: 20px 0px;
+    position: relative;
+
+}
+.on{
+    /*background:url(../img/pad.png) no-repeat right center";*/
+}
+.phone{
+    position: absolute;
+    left: 0;
+    top: -5px;
+    height: 41px;
+    width: 34px;
+    background: url(../img/pad.png) no-repeat;
+}
+.list-group-item a {
+    margin-left: 60px;
+}
+#titleImg{
+    margin-left: -44px;
+    margin-right: 10px;
+}
+.gamesListscn{
+    width: 836px;
+    overflow: hidden;
+}
+.gamesList{
+    width: 100%;
+    list-style: none;
+    /*display: none;*/
+}
+.content{
+    width:auto;
+    display: none;
+}
+.gamesList li{
+    float: right;
+    margin-bottom: 42px;
+    margin-left: 43px;
+    width: 43%;
+    height: 327px;
+    border: 1px solid #cad6e1;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.gamesList li h3 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.gamesList li h3 a .title,.gamesList li h3 a span{
+    color: green;
+}
+.gamesList li h3 a span{
+    font-size: 14px;
+}
+.gamesLink{
+    line-height: 74px;
+}
+.gamesLink span{
+    height: 36px;
+    width: 160px;
+    display: inline-block;
+    line-height: 36px;
+    margin-top: 20px;
+}
+.address{
+    background: url(../img/icon.png)no-repeat 0 -345px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+    float: left;
+}
+b{
+    float: left;
+    font-weight: normal;
+    margin-left: 5px;
+}
+.hover a{
+    color:green;
+}
+.list-group-item a{
+    text-decoration: none;
+}
+.list-group-item a:hover{
+    color: green;
+
+}
+.list-group-item a:hover{
+    color: green!important;
+}
+.list-group-item a:hover .phone0{
+    background-position: -121px 0!important;
+}
+.list-group-item a:hover .phone1{
+    background-position: -124px -97px!important;
+}
+.list-group-item a:hover .phone2{
+    background-position: -121px -197px!important;
+}
+.list-group-item a:hover .phone3{
+    background-position: -120px -295px!important;
+}
+.list-group-item a:hover .phone4{
+    background-position: -43px -595px!important;
+}
+.newsImg a img{
+	width: 100%;
+}
+.list-group-item span{
+    display: none;
+}
+@media only screen and (max-width:1025px){
+    .displayNone{
+        display: none!important;
+    }
+}
+@media only screen and (max-width:650px){
+    .gamesList li{
+        width: 80%!important;
+    }
+}
+@media only screen and (max-width: 1025px){
+    .col-md-9{
+        width:95%!important;
+    }
+}

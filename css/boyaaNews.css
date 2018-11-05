@@ -1,0 +1,88 @@
+.title{
+    font-size: 16px;
+    font-weight:normal;
+}
+.title:hover{
+    color: green;
+}
+.title span{
+    color:green;
+}
+.title .time{
+    padding-left: 24px;
+    color: #afbecf;
+    font-size: 12px;
+    background: url(../img/icon.png) no-repeat 0 -298px;
+    float: right;
+    font-weight: normal;
+}
+.rightHead{
+   margin: 20px auto;
+    display: block;
+}
+.rightHead:hover{
+    color:green;
+}
+.rightHead span{
+    color: green;
+}
+.newsImg{
+   text-align: center;
+}
+.newsTopText{
+    margin: 20px auto;
+    border-bottom: 1px solid #D1DCE7;
+    padding: 20px 0;
+    line-height: 30px;
+}
+.newsDetails{
+    list-style: none;
+}
+.newsDetails li{
+    margin: 30px 0;
+}
+.newsDetails li a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.newsDetails li a:hover{
+    color: green;
+}
+.date{
+    float: right;
+    color: #CBC4CF;
+    font-weight: normal;
+}
+.pages{
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    text-align: center;
+}
+.pages a{
+    color: #444866;
+    font-size: 12px;
+    text-decoration: none;
+    vertical-align: middle;
+    display: inline-block;
+    min-width: 22px;
+    height: 22px;
+    background: #fff;
+    border: 1px solid #c3cbe3;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 22px;
+    margin-left: 6px;
+}
+.pages a:hover{
+    background: #8894bb;
+    color: #fff;
+    border: 0;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+.top{
+    color: black;
+}
